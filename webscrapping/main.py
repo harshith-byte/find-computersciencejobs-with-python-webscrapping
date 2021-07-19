@@ -14,6 +14,7 @@ def fun():
             f.write(f"Job title : {job_title}\n")
             f.write(f"uploaded time : {time}")
             f.write(f"More info : shine.com{more_info}")
+            print("Details saved to file\n")
 if __name__=='__main__':
     while True:
         fun()
